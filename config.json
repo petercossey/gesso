@@ -1,0 +1,22 @@
+{
+    "name": "Collage",
+    "version": "0.0.1",
+    "meta": {
+        "price": "0",
+        "documentation_url": "https://developer.bigcommerce.com/docs/storefront/stencil",
+        "author_name": "Peter Cossey",
+        "author_email": "peter.cossey@bigcommerce.com",
+        "author_support_url": "https://developer.bigcommerce.com/docs/storefront/stencil",
+        "composed_image": "gesso-theme.png",
+        "features": [
+            "fully_responsive"
+        ]
+    },
+    "settings": {},
+    "variations": [
+        {
+            "name": "Default",
+            "id": "default"
+        }
+    ]
+}
