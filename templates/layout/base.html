@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ locale_name }}">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>{{ head.title }}</title>
+        {{{ resourceHints }}}
+        {{{ head.meta_tags }}}
+        {{{ head.config }}}
+        {{#block "head"}} {{/block}}
+
+        <link rel="icon" href="{{cdn 'img/favicon.ico'}}" sizes="any">
+        <link rel="icon" href="{{cdn 'img/icon.svg'}}" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="{{cdn 'img/icon.png'}}">
+
+        <meta name="theme-color" content="#fafafa" />
+    </head>
+
+    <body>
+        <!-- Add storefront content here -->
+        {{> layout/common/header}}
+        {{> layout/common/main}}
+        {{> layout/common/footer}}
+    </body>
+</html>

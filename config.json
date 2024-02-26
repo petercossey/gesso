@@ -2,7 +2,7 @@
     "name": "Collage",
     "version": "0.0.1",
     "meta": {
-        "price": "0",
+        "price": 0,
         "documentation_url": "https://developer.bigcommerce.com/docs/storefront/stencil",
         "author_name": "Peter Cossey",
         "author_email": "peter.cossey@bigcommerce.com",
@@ -12,11 +12,20 @@
             "fully_responsive"
         ]
     },
-    "settings": {},
+    "settings": {
+        "homepage_featured_products_count": 6,
+        "homepage_new_products_count": 6,
+        "homepage_top_products_count": 6
+    },
     "variations": [
         {
             "name": "Default",
-            "id": "default"
+            "id": "default",
+            "meta": {
+                "description": "A lightweight starter kit for a BigCommerce Stencil theme ready for developers to add their own CSS and JS tooling."
+            },
+            "images": {},
+            "settings": {}
         }
     ]
 }
