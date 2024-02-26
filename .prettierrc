@@ -1,0 +1,17 @@
+{
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "es5",
+    "singleAttributePerLine": false,
+    "printWidth": 180,
+    "htmlWhitespaceSensitivity": "ignore",
+    "overrides": [
+        {
+            "files": "**/*.html",
+            "options": {
+                "parser": "angular"
+            }
+        }
+    ]
+}

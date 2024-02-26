@@ -1,0 +1,93 @@
+[
+    {
+        "name": "i18n.Global",
+        "settings": [
+            {
+                "type": "font",
+                "label": "i18n.BodyTextFontFamily",
+                "id": "body-font",
+                "options": [
+                    {
+                        "group": "i18n.Arial",
+                        "label": "i18n.Arial",
+                        "value": "Arial"
+                    },
+                    {
+                        "group": "i18n.Georgia",
+                        "label": "i18n.Georgia",
+                        "value": "Georgia"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "i18n.HomePage",
+        "settings": [
+            {
+                "type": "heading",
+                "content": "i18n.Products"
+            },
+            {
+                "type": "select",
+                "label": "i18n.NumberOfFeaturedProducts",
+                "id": "homepage_featured_products_count",
+                "force_reload": true,
+                "options": [
+                    {
+                        "value": 0,
+                        "label": "i18n.Disable"
+                    },
+                    {
+                        "value": 6,
+                        "label": "6"
+                    },
+                    {
+                        "value": 12,
+                        "label": "12"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "label": "i18n.NumberOfNewProducts",
+                "id": "homepage_new_products_count",
+                "force_reload": true,
+                "options": [
+                    {
+                        "value": 0,
+                        "label": "i18n.Disable"
+                    },
+                    {
+                        "value": 6,
+                        "label": "6"
+                    },
+                    {
+                        "value": 12,
+                        "label": "12"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "label": "i18n.NumberOfMostPopularProducts",
+                "id": "homepage_top_products_count",
+                "force_reload": true,
+                "options": [
+                    {
+                        "value": 0,
+                        "label": "i18n.Disable"
+                    },
+                    {
+                        "value": 6,
+                        "label": "6"
+                    },
+                    {
+                        "value": 12,
+                        "label": "12"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+{
+    "i18n.Arial": {
+        "default": "Arial"
+    },
+    "i18n.BodyTextFontFamily": {
+        "default": "Body text font family"
+    },
+    "i18n.Disable": {
+        "default": "Disable"
+    },
+    "i18n.Georgia": {
+        "default": "Georgia"
+    },
+    "i18n.Global": {
+        "default": "Global"
+    },
+    "i18n.HomePage": {
+        "default": "Homepage"
+    },
+    "i18n.NumberOfFeaturedProducts": {
+        "default": "Number of featured products"
+    },
+    "i18n.NumberOfMostPopularProducts": {
+        "default": "Number of most popular products"
+    },
+    "i18n.NumberOfNewProducts": {
+        "default": "Number of new products"
+    },
+    "i18n.Products": {
+        "default": "Products"
+    }
+}
